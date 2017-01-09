@@ -28,7 +28,6 @@ int main() {
 	node *head = NULL;
 
 	int T = 5;
-
 	while (T--) {
 		int input;
 		cin >> input;
