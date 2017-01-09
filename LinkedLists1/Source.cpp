@@ -7,11 +7,11 @@ typedef struct node {
 	node *next;
 };
 
-node* insertFront(node& head, int info) {
+node* insertFront(node *head, int info) {
 	node *temp;
 	temp = (node*)malloc(sizeof(node));
 	temp->data = info;
-	temp->next = &head;
+	temp->next = head;
 	return temp;
 }
 
@@ -32,7 +32,7 @@ int main() {
 	while (T--) {
 		int input;
 		cin >> input;
-		head = insertFront(*head, input);
+		head = insertFront(head, input);
 	}
 
 	traverse(head);
