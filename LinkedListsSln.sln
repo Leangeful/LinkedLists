@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LinkedLists1", "LinkedLists
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HRinsertTail", "HRinsertTail\HRinsertTail.vcxproj", "{BAF4CD73-1D3E-4C32-AE0A-0A99CC05B46E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HRinsertHead", "HRinsertHead\HRinsertHead.vcxproj", "{0E82EC15-138B-456D-B58D-6EB5601DFAA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{BAF4CD73-1D3E-4C32-AE0A-0A99CC05B46E}.Release|x64.Build.0 = Release|x64
 		{BAF4CD73-1D3E-4C32-AE0A-0A99CC05B46E}.Release|x86.ActiveCfg = Release|Win32
 		{BAF4CD73-1D3E-4C32-AE0A-0A99CC05B46E}.Release|x86.Build.0 = Release|Win32
+		{0E82EC15-138B-456D-B58D-6EB5601DFAA1}.Debug|x64.ActiveCfg = Debug|x64
+		{0E82EC15-138B-456D-B58D-6EB5601DFAA1}.Debug|x64.Build.0 = Debug|x64
+		{0E82EC15-138B-456D-B58D-6EB5601DFAA1}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E82EC15-138B-456D-B58D-6EB5601DFAA1}.Debug|x86.Build.0 = Debug|Win32
+		{0E82EC15-138B-456D-B58D-6EB5601DFAA1}.Release|x64.ActiveCfg = Release|x64
+		{0E82EC15-138B-456D-B58D-6EB5601DFAA1}.Release|x64.Build.0 = Release|x64
+		{0E82EC15-138B-456D-B58D-6EB5601DFAA1}.Release|x86.ActiveCfg = Release|Win32
+		{0E82EC15-138B-456D-B58D-6EB5601DFAA1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
