@@ -19,20 +19,31 @@ void traverse(Node *head) {
 
 Node* Insert(Node *head, int data) {
 	
-	Node *temp1;
-	temp1 = (Node*)malloc(sizeof(Node));
-	temp1 = head;
+	Node *newNode = (Node*)malloc(sizeof(Node));
 
-	while (temp1->next != NULL) {
-		temp1 = temp1->next;
+	if (newNode == NULL) {		
+		exit(-1);
+	}	
+
+	newNode->data = data;
+	newNode->next = NULL;	
+
+	if (head == NULL) {
+		head = newNode;
+		return head;
 	}
 
-	Node *temp;
-	temp = (Node*)malloc(sizeof(Node));
-	temp->data = data;
-	temp->next = NULL;
-	temp1->next = temp;
-	return temp;
+	if (head->next == NULL) {
+		head->next = newNode;
+	}
+	else {
+		Node *cur = head;
+		while (cur->next != NULL) {		
+			cur = cur->next;
+		}
+		cur->next = newNode;
+	}
+	return head;
 }
 
 int main() {
